@@ -13,7 +13,6 @@ export default function LoginPage() {
 				objectFit="contain"
 			/>
 			<LoginForm />
-			{/* <form className="form-box login-background">This is my div</form> */}
 		</div>
 	);
 }
