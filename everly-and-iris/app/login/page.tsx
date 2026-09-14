@@ -1,16 +1,19 @@
+import LoginForm from "./loginForm";
 import Image from "next/image";
+import "./login.css";
 
 export default function LoginPage() {
 	return (
-		<>
+		<div className="almond-blossom login-background">
 			<Image
-				//              src='https://seligmar.github.io/robert-a-selig/route-map-vertical.jpg'
-				src={"/almond.jpeg"}
+				// src='https://seligmar.github.io/robert-a-selig/route-map-vertical.jpg'
+				src={"/blossoms.png"}
 				alt={"Almond Blossom, February 1890. Van Gogh Museum, Amsterdam"}
-				width={100}
-				height={100}
+				layout="fill"
+				objectFit="contain"
 			/>
-			{/* <div>Image</div>{" "} */}
-		</>
+			<LoginForm />
+			{/* <form className="form-box login-background">This is my div</form> */}
+		</div>
 	);
 }
