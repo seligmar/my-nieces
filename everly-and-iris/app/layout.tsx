@@ -4,8 +4,14 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
 	console.log(children);
 	return (
 		<html lang="en">
+			<link
+				rel="icon"
+				href="/icon?<generated>"
+				type="image/<generated>"
+				sizes="<generated>"
+			/>
 			<body>
-				<title>A gift to my nieces</title>
+				<title>Everly & Iris</title>
 				{children}
 			</body>
 		</html>
