@@ -5,22 +5,22 @@ export default function LoginForm() {
 		<form className="form-box login-background">
 			<div className="container">
 				<div className="form-title">LogIn</div>
-				<label htmlFor="uname">
-					<div>UserName</div>
+				<label htmlFor="username">
+					<div>User Name</div>
 				</label>
 				<input
 					type="text"
-					placeholder="UserName"
-					name="uname"
+					placeholder="User Name"
+					name="username"
 					required
 				/>
-				<label htmlFor="psw">
+				<label htmlFor="password">
 					<div>Password</div>
 				</label>
 				<input
 					type="password"
 					placeholder="Enter Password"
-					name="psw"
+					name="password"
 					required
 				/>
 				<button type="submit">Login</button>
