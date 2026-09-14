@@ -41,4 +41,4 @@ yarn-error.log*
 next-env.d.ts
 
 # new files
-..app/login/login-options.js
+../app/login/login-options.js
