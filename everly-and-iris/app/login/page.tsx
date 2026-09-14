@@ -5,7 +5,7 @@ export default function LoginPage() {
 		<>
 			<Image
 				src={"/almond"}
-        alt={"Almond Blossom, February 1890. Van Gogh Museum, Amsterdam"}}
+				alt={"Almond Blossom, February 1890. Van Gogh Museum, Amsterdam"}
 				width={100}
 				height={100}
 			/>
