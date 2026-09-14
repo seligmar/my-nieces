@@ -1,0 +1,41 @@
+.toast-alert {
+	visibility: hidden;
+	color: #fff;
+	text-align: center;
+	border-radius: 2px;
+	padding: 16px;
+	z-index: 1;
+	font-size: 17px;
+	position: absolute;
+	width: 100%;
+}
+
+.close-alert-button {
+	background-color: inherit;
+	color: white;
+	margin-right: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	box-shadow: none;
+	cursor: pointer;
+	border: 1px solid transparent;
+	float: right;
+}
+
+.toast-alert.show.success {
+	visibility: visible;
+	background-color: #6f9bde;
+}
+
+.toast-alert.show.failure {
+	visibility: visible;
+	background-color: #9a1005;
+}
+
+.close-alert-button:hover {
+	border: 1px solid white;
+}
+
+.close-alert-button:focus {
+	border: 1px solid white;
+}
