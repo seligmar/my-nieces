@@ -4,7 +4,7 @@ export default function LoginForm() {
 	return (
 		<form className="form-box login-background">
 			<div className="container">
-				<div>LogIn</div>
+				<div className="form-title">LogIn</div>
 				<label htmlFor="uname">
 					<div>Username</div>
 				</label>
