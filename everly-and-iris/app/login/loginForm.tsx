@@ -1,8 +1,15 @@
+"use client";
 import "./login.css";
 
-export default function LoginForm() {
+export default function LoginForm({
+	onSubmit,
+}: {
+	onSubmit: (e: any) => void;
+}) {
 	return (
-		<form className="form-box login-background">
+		<form
+			className="form-box login-background"
+			onSubmit={onSubmit}>
 			<div className="container">
 				<div className="form-title">LogIn</div>
 				<label htmlFor="username">
@@ -12,6 +19,7 @@ export default function LoginForm() {
 					type="text"
 					placeholder="User Name"
 					name="username"
+					id="username"
 					required
 				/>
 				<label htmlFor="password">
@@ -21,6 +29,7 @@ export default function LoginForm() {
 					type="password"
 					placeholder="Password"
 					name="password"
+					id="password"
 					required
 				/>
 				<button
