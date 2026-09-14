@@ -19,11 +19,15 @@ export default function LoginForm() {
 				</label>
 				<input
 					type="password"
-					placeholder="Enter Password"
+					placeholder="Password"
 					name="password"
 					required
 				/>
-				<button type="submit">Login</button>
+				<button
+					type="submit"
+					className="login-button">
+					Login
+				</button>
 			</div>
 		</form>
 	);
