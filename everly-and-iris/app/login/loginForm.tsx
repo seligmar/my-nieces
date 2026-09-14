@@ -4,8 +4,9 @@ export default function LoginForm() {
 	return (
 		<form className="form-box login-background">
 			<div className="container">
+				<div>LogIn</div>
 				<label htmlFor="uname">
-					<b>Username</b>
+					<div>Username</div>
 				</label>
 				<input
 					type="text"
@@ -13,9 +14,8 @@ export default function LoginForm() {
 					name="uname"
 					required
 				/>
-
 				<label htmlFor="psw">
-					<b>Password</b>
+					<div>Password</div>
 				</label>
 				<input
 					type="password"
