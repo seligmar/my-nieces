@@ -25,10 +25,9 @@
 
 input[type="text"],
 input[type="password"] {
+	line-height: 28px;
 	width: 100%;
-	padding: 12px 20px;
 	margin: 8px 0;
-	display: inline-block;
 	border: 1px solid #2596be;
 	box-sizing: border-box;
 	border-radius: 5px;
