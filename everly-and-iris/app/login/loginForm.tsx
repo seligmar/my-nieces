@@ -6,11 +6,11 @@ export default function LoginForm() {
 			<div className="container">
 				<div className="form-title">LogIn</div>
 				<label htmlFor="uname">
-					<div>Username</div>
+					<div>UserName</div>
 				</label>
 				<input
 					type="text"
-					placeholder="Enter Username"
+					placeholder="UserName"
 					name="uname"
 					required
 				/>
