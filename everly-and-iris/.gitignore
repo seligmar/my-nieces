@@ -41,4 +41,4 @@ yarn-error.log*
 next-env.d.ts
 
 # new files
-/app/login/usernames.js
+/app/login/username.js
