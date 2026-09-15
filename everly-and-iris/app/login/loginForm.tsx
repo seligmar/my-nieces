@@ -35,7 +35,7 @@ export default function LoginForm({
 				<button
 					type="submit"
 					className="login-button">
-					Login
+					LogIn
 				</button>
 			</div>
 		</form>
