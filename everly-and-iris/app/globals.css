@@ -2,18 +2,5 @@ main {
 	font-family: "Courier New", Courier, monospace;
 }
 
-/* Set a style for all buttons */
-button {
-	background-color: #2596be;
-	color: white;
-	padding: 10px 0px;
-	margin: 8px 0;
-	border: none;
-	width: 100%;
-	border-radius: 5px;
-	font-size: 16px;
-}
 
-button:hover {
-	cursor: pointer;
-}
+

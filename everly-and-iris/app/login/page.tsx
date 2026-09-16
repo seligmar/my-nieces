@@ -17,10 +17,10 @@ export default function LoginPage() {
 		if (username1 !== username || password1 !== password) {
 			openToast(true);
 			setStatus("failure");
-			setTimeout(function () {
-				openToast(false);
-				setStatus(undefined);
-			}, 7000);
+			// setTimeout(function () {
+			// 	openToast(false);
+			// 	setStatus(undefined);
+			// }, 7000);
 		} else {
 			openToast(true);
 			setStatus("success");
