@@ -48,12 +48,12 @@ input[type="password"] {
 .login-button:hover {
 	cursor: pointer;
 	background-color: #fff2e8;
-	color: black;
-	border: 2px solid #7e2914 !important;
+	color: #7e2914;
+	border: 2px solid #7e2914;
 }
 
 .login-button:focus {
 	background-color: #fff2e8;
-	color: black;
-	border: 2px solid #7e2914 !important;
+	color: #7e2914;
+	border: 2px solid #7e2914;
 }
