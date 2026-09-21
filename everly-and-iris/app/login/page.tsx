@@ -19,22 +19,39 @@ export default function LoginPage() {
 		const username1 = e.target["username"].value;
 		const password1 = e.target["password"].value;
 		if (username1 !== username || password1 !== password) {
-			openToast(true);
-			setStatus("failure");
-			setTimeout(function () {
-				openToast(false);
-				setStatus(undefined);
-			}, 7000);
+			successToastAlert();
+			// openToast(true);
+			// setStatus("failure");
+			// setTimeout(function () {
+			// 	openToast(false);
+			// 	setStatus(undefined);
+			// }, 7000);
 		} else {
-			openToast(true);
-			setStatus("success");
-			//form.reset();
-			setTimeout(function () {
-				openToast(false);
-				setStatus(undefined);
-				//	router.push("/home");
-			}, 7000);
+			failToastAlert();
 		}
+	}
+
+	function successToastAlert() {
+		openToast(true);
+		setStatus("failure");
+		setTimeout(function () {
+			closeToast();
+
+			// openToast(false);
+			// setStatus(undefined);
+		}, 7000);
+	}
+
+	function failToastAlert() {
+		openToast(true);
+		setStatus("success");
+		//form.reset();
+		setTimeout(function () {
+			closeToast();
+			// openToast(false);
+			// setStatus(undefined);
+			//	router.push("/home");
+		}, 7000);
 	}
 
 	function closeToast() {
