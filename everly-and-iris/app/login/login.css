@@ -42,8 +42,18 @@ input[type="password"] {
 	width: 100%;
 	border-radius: 5px;
 	font-size: 16px;
+	border: 2px solid #2596be;
 }
 
 .login-button:hover {
 	cursor: pointer;
+	background-color: #fff2e8;
+	color: black;
+	border: 2px solid #7e2914 !important;
+}
+
+.login-button:focus {
+	background-color: #fff2e8;
+	color: black;
+	border: 2px solid #7e2914 !important;
 }
