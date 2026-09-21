@@ -32,7 +32,7 @@ export default function LoginPage() {
 			setTimeout(function () {
 				openToast(false);
 				setStatus(undefined);
-				//	router.push("/dashboard");
+				//	router.push("/home");
 			}, 7000);
 		}
 	}
