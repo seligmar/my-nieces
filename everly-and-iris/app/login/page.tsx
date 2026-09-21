@@ -1,5 +1,5 @@
 "use client";
-import { useRouter } from "next/router";
+//import { useRouter } from "next/router";
 import { useState } from "react";
 import Image from "next/image";
 import LoginForm from "./loginForm";
@@ -8,7 +8,7 @@ import { username, password } from "./username";
 import "./login.css";
 
 export default function LoginPage() {
-	const router = useRouter();
+	//	const router = useRouter();
 	const [open, openToast] = useState<boolean>(false);
 	const [status, setStatus] = useState<string | undefined>(undefined);
 
@@ -32,7 +32,7 @@ export default function LoginPage() {
 			setTimeout(function () {
 				openToast(false);
 				setStatus(undefined);
-				router.push("/dashboard");
+				//	router.push("/dashboard");
 			}, 7000);
 		}
 	}
