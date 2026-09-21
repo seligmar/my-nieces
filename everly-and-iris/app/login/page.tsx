@@ -12,19 +12,21 @@ export default function LoginPage() {
 
 	function onSubmit(e: any) {
 		e.preventDefault();
+		//	const form = e.target;
+
 		const username1 = e.target["username"].value;
 		const password1 = e.target["password"].value;
 		if (username1 !== username || password1 !== password) {
 			openToast(true);
 			setStatus("failure");
-			// setTimeout(function () {
-			// 	openToast(false);
-			// 	setStatus(undefined);
-			// }, 7000);
+			setTimeout(function () {
+				openToast(false);
+				setStatus(undefined);
+			}, 7000);
 		} else {
 			openToast(true);
 			setStatus("success");
-			//  form.reset();
+			//form.reset();
 			setTimeout(function () {
 				openToast(false);
 				setStatus(undefined);
