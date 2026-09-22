@@ -15,7 +15,6 @@ export default function ToastAlert({
 	const class3 = status;
 
 	const successMessage = "Welcome! <3";
-
 	const failureMessage = "Please contact Aunt Mimi <3";
 
 	return (

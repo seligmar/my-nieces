@@ -20,12 +20,6 @@ export default function LoginPage() {
 		const password1 = e.target["password"].value;
 		if (username1 !== username || password1 !== password) {
 			successToastAlert();
-			// openToast(true);
-			// setStatus("failure");
-			// setTimeout(function () {
-			// 	openToast(false);
-			// 	setStatus(undefined);
-			// }, 7000);
 		} else {
 			failToastAlert();
 		}
