@@ -15,9 +15,6 @@ export default function LoginPage() {
 	function onSubmit(e: any) {
 		e.preventDefault();
 		const form = e.target;
-
-		console.log(form);
-
 		const username1 = e.target["username"].value;
 		const password1 = e.target["password"].value;
 		if (username1 !== username || password1 !== password) {
@@ -25,6 +22,7 @@ export default function LoginPage() {
 		} else {
 			failToastAlert();
 		}
+		form.reset();
 	}
 
 	function successToastAlert() {
@@ -38,7 +36,6 @@ export default function LoginPage() {
 	function failToastAlert() {
 		openToast(true);
 		setStatus("success");
-		//form.reset();
 		setTimeout(function () {
 			closeToast();
 			router.push("/home");
