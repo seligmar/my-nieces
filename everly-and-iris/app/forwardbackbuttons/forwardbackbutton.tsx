@@ -9,11 +9,13 @@ export function ForwardButton() {
 			href=""
 			className="forward-button">
 			<div className="forward-back-button">
+				<div className="back-button-text">Right</div>
 				<Image
-					src={"/toucan2.png"}
+					src={"/toucanRight.png"}
 					alt={""}
 					width={150}
 					height={100}
+					className="button-radius"
 				/>
 			</div>
 		</Link>
