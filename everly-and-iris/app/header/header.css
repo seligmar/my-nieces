@@ -1,6 +1,19 @@
 .header {
 	height: 50px;
 	display: flex;
+	width: 100%;
+}
+
+.iris {
+	width: 50%;
+	background-color: #5a72a7;
+	color: white;
+}
+
+.everly {
+	width: 50%;
+	background-color: #38462b;
+	color: white;
 }
 
 .purple-iris {
