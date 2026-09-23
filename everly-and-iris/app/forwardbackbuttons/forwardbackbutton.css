@@ -1,10 +1,18 @@
-.back-button {
-	background-color: #ff250b;
+.forward-back-button {
 	width: 200px;
 	display: flex;
 	text-align: center;
 	align-items: center;
 	color: white;
+}
+
+.back-button {
+	background-color: #ff250b;
+	/* width: 200px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	color: white; */
 }
 
 .button-radius {
@@ -13,4 +21,8 @@
 
 .back-button-text {
 	margin-left: 10px;
+}
+
+.forward-button-text {
+	margin-right: 10px;
 }

@@ -8,12 +8,14 @@ export function ForwardButton() {
 		<Link
 			href=""
 			className="forward-button">
-			<Image
-				src={"/toucan2.png"}
-				alt={""}
-				width={150}
-				height={100}
-			/>
+			<div className="forward-back-button">
+				<Image
+					src={"/toucan2.png"}
+					alt={""}
+					width={150}
+					height={100}
+				/>
+			</div>
 		</Link>
 	);
 	return forwardButton;
@@ -23,9 +25,8 @@ export function BackButton() {
 	const backButton = (
 		<Link
 			href=""
-			//className="back-button"
-		>
-			<div className="back-button">
+			className="forward-button">
+			<div className="back-button forward-back-button">
 				<Image
 					src={"/toucanLeft.png"}
 					alt={"previous page"}
