@@ -8,11 +8,11 @@ export function ForwardButton() {
 		<Link
 			href=""
 			className="forward-button">
-			<div className="forward-back-button">
+			<div className="back-button forward-back-button">
 				<div className="back-button-text">Right</div>
 				<Image
 					src={"/toucanRight.png"}
-					alt={""}
+					alt={"next page"}
 					width={150}
 					height={100}
 					className="button-radius"

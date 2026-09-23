@@ -15,6 +15,10 @@
 	color: white; */
 }
 
+.forward-button {
+	background-color: #d35520;
+}
+
 .button-radius {
 	border-radius: 100px;
 }
