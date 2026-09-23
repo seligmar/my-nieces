@@ -1,0 +1,16 @@
+.back-button {
+	background-color: #ff250b;
+	width: 200px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	color: white;
+}
+
+.button-radius {
+	border-radius: 100px;
+}
+
+.back-button-text {
+	margin-left: 10px;
+}
