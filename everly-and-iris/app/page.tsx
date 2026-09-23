@@ -5,10 +5,6 @@ export default function Home() {
 		<div>
 			<main>
 				<LoginPage />
-				{/* <div>
-					<h1>Everly & Iris</h1>
-				</div>
-				<div>Contents</div> */}
 			</main>
 		</div>
 	);

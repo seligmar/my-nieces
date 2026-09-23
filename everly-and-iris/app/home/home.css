@@ -8,11 +8,13 @@
 .enter-text {
 	float: left;
 	position: absolute;
-	/* left: 0px; */
 	top: 300px;
 	z-index: 1000;
 	background-color: #92ad40;
 	padding: 5px;
 	color: #ffffff;
 	font-weight: bold;
+	font-family: cursive;
+	font-size: 48px;
+	padding: 20px;
 }

@@ -1,12 +1,20 @@
+"use client";
 import Image from "next/image";
 import Header from "../header/page";
 import "./home.css";
 
 export default function HomePage() {
+	function enterStory() {
+		console.log("click?");
+	}
+
 	return (
 		<>
 			<Header />
-			<div className="homepage-background">
+			<div
+				className="homepage-background"
+				role="button"
+				onClick={() => enterStory()}>
 				<Image
 					// src='https://seligmar.github.io/robert-a-selig/route-map-vertical.jpg'
 					src={"/iris.png"}
