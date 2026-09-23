@@ -1,19 +1,35 @@
 .header {
-	height: 50px;
+	text-align: center;
+	align-items: center;
 	display: flex;
 	width: 100%;
+	font-size: 28px;
+	/* padding-top: 10px;
+	padding-bottom: 10px; */
 }
 
 .iris {
-	width: 50%;
+	width: 45%;
 	background-color: #5a72a7;
 	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.and {
+	background-color: #3f5b3d;
+	color: white;
+	width: 10%;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .everly {
-	width: 50%;
-	background-color: #38462b;
+	width: 45%;
+	background-color: #b3be91;
 	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .purple-iris {

@@ -24,6 +24,7 @@ export default function HomePage() {
 					//layout="fill"
 					//	objectFit="contain"
 				/>
+				<div className="enter-text">Go To The Zoo</div>
 			</div>
 		</>
 	);
